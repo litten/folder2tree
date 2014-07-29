@@ -6,8 +6,13 @@
  * @lastUpdate 2014-07-28 10:40 
  * @function: 1. init(ctn ,data)
  */
-
-var folder2tree = (function() {
+(function (root, factory) {
+    if (typeof define === 'function' && define.amd) {
+        define([], factory);
+    } else {
+        root['folder2tree'] = factory();
+    }
+}(this, function () {
 
     var arr2obj = function(arr){
         var obj = {};
@@ -103,4 +108,4 @@ var folder2tree = (function() {
 
         }
     }
-})();
+}));
