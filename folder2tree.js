@@ -3,7 +3,7 @@
  * @fileoverview Show your folder structure with tree nodes. 用树形节点展示文件夹结构
  * @version 1.1
  * @author HJava, litten
- * @lastUpdate 2014-07-28 10:40
+ * @lastUpdate 2014-08-14 09:35
  * @function: 1. init(ctn ,data)
  */
 (function(root, factory) {
